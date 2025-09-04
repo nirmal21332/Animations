@@ -1,4 +1,4 @@
-import 'package:animatons/Homescreen.dart';
+import 'package:animatons/Home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3:false,
         primarySwatch: Colors.blue
       ),
-      home:HomeScreen(),
+      home:HomePage(),
     );
   }
 }
